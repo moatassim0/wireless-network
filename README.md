@@ -167,6 +167,8 @@ The WLC management interface is accessible via HTTPS for secure administration.
 2. The WLC forwards the authentication request to the **RADIUS server** via 802.1X.
 3. The RADIUS server verifies the credentials against its internal database.
 4. Upon success, the user is granted network access with AES-128 encrypted communication.
+
+
 ### Physical Security
  
 Access to the management room is controlled by an **RFID-secured door**. The RFID card is assigned to a single administrator only, enforcing physical confidentiality and integrity of the network infrastructure.
@@ -180,9 +182,11 @@ Access to the management room is controlled by an **RFID-secured door**. The RFI
 | IoT Door | Wirelessly connected; state controlled by the IoT server |
 | RFID Reader | Reads RFID card; triggers door unlock via IoT server |
 | RFID Card | Assigned to one admin only; conditions set on reader for access control |
- 
+
 The IoT server manages the conditions and logic that govern reader-card interactions and door states.
- 
+
+<img width="400" height="422" alt="image" src="https://github.com/user-attachments/assets/c5428433-ee3d-418e-96af-2f795495ec11" />
+
 ---
 
 ## Testing and Verification
@@ -194,11 +198,11 @@ All core functions of the network were tested and verified successfully.
  
 Laptops and smartphones successfully connected to the wireless network using credentials registered in the RADIUS server.
 
-<img width="459" height="505" alt="image" src="https://github.com/user-attachments/assets/04e9d019-b2b3-4c63-af3d-4c0562b9a5fe" />
-<img width="436" height="493" alt="image" src="https://github.com/user-attachments/assets/379d049b-21b7-424e-ae69-cf9c0f343514" />
+<img width="400" height="505" alt="image" src="https://github.com/user-attachments/assets/04e9d019-b2b3-4c63-af3d-4c0562b9a5fe" />
+<img width="400" height="493" alt="image" src="https://github.com/user-attachments/assets/379d049b-21b7-424e-ae69-cf9c0f343514" />
 
-<img width="463" height="146" alt="image" src="https://github.com/user-attachments/assets/4b301e37-564c-47a8-98dd-a84c5c02f76e" />
-<img width="440" height="145" alt="image" src="https://github.com/user-attachments/assets/ad9604c7-6930-4fc5-8d85-07a21308fb84" />
+<img width="400" height="146" alt="image" src="https://github.com/user-attachments/assets/4b301e37-564c-47a8-98dd-a84c5c02f76e" />
+<img width="400" height="145" alt="image" src="https://github.com/user-attachments/assets/ad9604c7-6930-4fc5-8d85-07a21308fb84" />
 
 ---
 
@@ -223,7 +227,7 @@ The RFID card successfully unlocked the IoT door by contacting the RFID reader.
  
 `http://ajman.ac.ae` is accessible in web browsers and domain names were successfully resolved to their IPs.
 
-<img width="421" height="426" alt="image" src="https://github.com/user-attachments/assets/b3d1a193-5a66-4339-be78-eeeaab1f89f2" />
+<img width="400" height="426" alt="image" src="https://github.com/user-attachments/assets/b3d1a193-5a66-4339-be78-eeeaab1f89f2" />
 
 ---
  
